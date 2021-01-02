@@ -1,5 +1,20 @@
 # Change Log
 
+## [1.3.17](https://github.com/cmderdev/cmder/tree/v1.3.17) (2020-12-23)
+
+### Fixes
+
+- [bug] Running `alias ..=cd ..` removes other aliases #2394
+- Switch to @chrisant996 [Clink](https://github.com/chrisant996/clink/) v1.1.10 to fix Clink newer Windows 10 releases.
+- Fix `\Git\cmd\git.exe found. was unexpected at this time.`
+- Documentation fixes.
+
+### Changes
+
+- Update Git to 2.29.0
+- Improve `init.bat` Speed
+- Add `systeminfo.exe` output to iag scripts.
+
 ## [1.3.16](https://github.com/cmderdev/cmder/tree/v1.3.16) (2020-07-29)
 
 ### Fixes
